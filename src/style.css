@@ -1,0 +1,99 @@
+body{
+    background-color:var(--Soft-magenta);
+    background-color:var(--violet-pymary);
+    background-image: url(./images/bg-desktop.svg);
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+
+}
+/* para titulos
+  */
+
+.img-title{
+margin: 40px; 
+}
+.container{
+  display: flex;
+ width: 100%;
+}
+.container .img-illustration{
+padding: 30px;
+justify-content: center;
+align-items: center;
+
+}
+
+.container .title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  color: #FFF;
+ 
+}
+
+.container .information {
+  padding: 15px;
+  
+  /* justify-content: center;
+  align-items: center; */
+
+}
+.container .information .headins {
+  font-family: 'Poppins', sans-serif;
+color:#FFF;
+
+
+
+}
+.container .title{
+color:#ffff ;
+font-weight: 600;
+
+
+
+}
+
+.bnt-link{
+  width: 150px;
+  height: 35px; 
+  cursor: pointer;
+  /* padding: 10px 50px; */
+  border: 1px solid;
+  border-radius: 50px;
+  font-size: 14px;
+  color: var(--violet-pymary);
+  background-color: #FFF;
+  
+  
+}
+.container .information .bnt-link:hover{
+background-color:var(--Soft-magenta);
+border: none;
+color: #FFF;
+}
+
+.social{
+  display: flex;
+  justify-content: flex-end;
+  
+}
+.social .icons{
+padding: 50px;
+font-size: 15px;
+
+
+}
+.social .icons .fa-brands{
+  border: 0.5px solid #fff;
+  border-radius: 50%;
+  padding: 10px;
+  color: #FFF;
+}
+
+.fa-brands:active{
+ border-color: var(--Soft-magenta);
+ background-color: firebrick;
+}
+
+
+
